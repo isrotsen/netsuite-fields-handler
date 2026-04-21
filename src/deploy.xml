@@ -1,0 +1,20 @@
+<deploy>
+	<files>
+		<path>~/FileCabinet/SuiteScripts/nac_lib_constants.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_lib_json_file_configuration.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_lib_fields_handler.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_lib_field_functions.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_ue_fields_handler.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_cs_fields_handler.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_rl_file_configuration.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_cs_example_button.js</path>
+		<path>~/FileCabinet/SuiteScripts/nac_json_fields_handler.json</path>
+		<path>~/FileCabinet/SuiteScripts/sweetalert2.all.js</path>
+	</files>
+	<objects>
+		<path>~/Objects/customrecord_nac_example.xml</path>
+		<path>~/Objects/customscript_nac_ue_fields_handler.xml</path>
+		<path>~/Objects/customscript_nac_cs_fields_handler.xml</path>
+		<path>~/Objects/customscript_nac_rl_file_configuration.xml</path>
+	</objects>
+</deploy>

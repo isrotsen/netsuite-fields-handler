@@ -1,0 +1,34 @@
+{
+  "VERSION": 1.0,
+  "customrecord_nac_example": {
+    "header": {
+      "*": []
+    },
+    "sublists": {},
+    "buttonsCFG": {
+      "script": "./nac_cs_example_button",
+      "buttonsList": [
+        {
+          "modes": [
+            "view"
+          ],
+          "id": "custpage_btn_do_action",
+          "function": "doAction",
+          "label": "Do Action",
+          "hiddenValidator": {
+            "conditions": [
+              {
+                "fieldid": "custrecord_nac_example_processed",
+                "value": true
+              },
+              {
+                "fieldid": "custrecord_nac_example_completed",
+                "value": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

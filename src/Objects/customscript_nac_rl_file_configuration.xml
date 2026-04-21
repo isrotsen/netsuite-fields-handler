@@ -1,0 +1,24 @@
+<restlet scriptid="customscript_nac_rl_file_configuration">
+  <description>RESTlet that serves JSON configuration files from the File Cabinet</description>
+  <isinactive>F</isinactive>
+  <name>NAC RL File Configuration</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifygroup></notifygroup>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/nac_rl_file_configuration.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_nac_rl_file_configuration">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>NAC RL File Configuration</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>

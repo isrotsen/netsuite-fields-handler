@@ -1,0 +1,55 @@
+# IDEs and editors
+.idea
+*.iml
+*.iws
+.project
+.classpath
+*.launch
+.settings
+*.sublime-workspace
+.vscode
+
+# Dependency directories
+node_modules
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Packaged SuiteCloud projects
+build
+
+# misc
+.sass-cache
+
+# Optional npm cache directory
+.npm
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Output of 'npm pack'
+*.tgz
+
+# Project config
+project.json
+
+#Netsuite
+error.log
+customizations/deploy.xml
+customizations/manifest.xml
+conf-comp.txt
+scripts/conf-comp.txt
+.clicache
+sdf
+sdf-credentials.js
+scripts/log*
+scripts/deploy.json
+scripts/wip.json
+customizations/.settings/.jsdtscope
+customizations/FileCabinet/SuiteScripts/.attributes

@@ -1,0 +1,81 @@
+<clientscript scriptid="customscript_nac_cs_fields_handler">
+  <description>Client Script that loads JSON field configuration via RESTlet and applies cascading field enable/disable rules</description>
+  <isinactive>F</isinactive>
+  <name>NAC CS Fields Handler</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifygroup></notifygroup>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/nac_cs_fields_handler.js]</scriptfile>
+  <scriptcustomfields>
+    <scriptcustomfield scriptid="custscript_nac_cs_fh_file_cfg">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>Deployment id of the RESTlet that serves the JSON configuration</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>FREEFORMTEXT</fieldtype>
+      <help></help>
+      <label>RESTlet Deployment Id</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>0</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting>ENTRY</setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+    <scriptcustomfield scriptid="custscript_nac_cs_fh_file_name">
+      <accesslevel>2</accesslevel>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>File Cabinet name of the JSON configuration (e.g. nac_json_fields_handler.json)</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <fieldtype>FREEFORMTEXT</fieldtype>
+      <help></help>
+      <label>JSON Config File Name</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>0</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <setting>ENTRY</setting>
+      <storevalue>T</storevalue>
+    </scriptcustomfield>
+  </scriptcustomfields>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_nac_cs_fields_handler">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <recordtype>[scriptid=customrecord_nac_example]</recordtype>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>NAC CS Fields Handler</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</clientscript>
